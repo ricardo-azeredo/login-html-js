@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: max-content;
+}
+
+html, body {
+    min-height: 100vh;
+    background: #ccc;
+}
+.tela {
+    height: 100vh;
+}
+.areaLogin{
+    background: #fff;
+    border: 1px solid #FFF;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    max-width: 400px;
+    width: 100%;
+}
+.areaLogin .textLogin h1,
+.areaLogin .textLogin h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo {
+    width: 20rem !important;
+}
